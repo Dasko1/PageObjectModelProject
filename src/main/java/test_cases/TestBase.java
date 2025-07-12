@@ -21,13 +21,13 @@ public class TestBase {
 
         driver = new ChromeDriver();
 
-        // To maximize browser
+        // To maximize browser!
         driver.manage().window().maximize();
 
-        // Implicit wait
+        // Implicit wait!
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        // To open Gmail site
+        // To open Instagram site
         driver.get("https://instagram.com");
     }
 
