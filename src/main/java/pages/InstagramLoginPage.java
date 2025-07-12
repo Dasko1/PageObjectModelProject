@@ -23,7 +23,6 @@ public class InstagramLoginPage {
     @FindBy(how = How.XPATH, using = "//div/button[@type='submit']")
     WebElement loginButton;
 
-
     // Define all the user actions (Methods) that can be performed in the Instagram login page.
     // This method is to set username in the username text box.
     public void setEmail(String strEmail) {

@@ -27,7 +27,7 @@ public class TestBase {
         // Implicit wait!
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        // To open Instagram site
+        // Open Instagram site!
         driver.get("https://instagram.com");
     }
 
