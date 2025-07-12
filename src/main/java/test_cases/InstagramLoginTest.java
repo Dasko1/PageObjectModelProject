@@ -18,6 +18,7 @@ public class InstagramLoginTest {
             String actualTitle = "Instagram";
 
             Thread.sleep(2000);
+            // Start to use assertions!
             Assert.assertEquals("Log in with Facebook", "Log in with Facebook");
             Assert.assertEquals(actualTitle, expectedTitle);
             loginpage.setEmail("abc@gmail.com");
