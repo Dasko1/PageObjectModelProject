@@ -1,0 +1,13 @@
+# Ignore all files ending with .log, for example in any directory
+*.log
+*.png
+*.
+
+# Ignore a specific file named 'config.json'
+config.json
+
+# Ignore all files within the 'build' directory and its subdirectories
+build/
+
+# Ignore all files with the .tmp extension in the 'temp' directory
+temp/*.tmp
