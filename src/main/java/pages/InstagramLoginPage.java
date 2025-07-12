@@ -29,12 +29,12 @@ public class InstagramLoginPage {
         usernameTextBox.sendKeys(strEmail);
     }
 
-    // This method is to set Password in the password text box
+    // This method is to set Password in the password text box.
     public void setPassword(String strPassword) {
         passwordTextBox.sendKeys(strPassword);
     }
 
-    // This method is to click on Login Button
+    // This method is to click on Login Button.
     public void Login() {
         loginButton.click();
     }
