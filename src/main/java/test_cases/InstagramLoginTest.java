@@ -8,7 +8,7 @@ import org.testng.Assert;
 public class InstagramLoginTest extends TestBase {
 
         @Test
-        public void init() throws Exception {
+        public void loginTest() throws Exception {
 
             // driver.get("https://instagram.com");
             InstagramLoginPage loginpage = PageFactory.initElements(driver, InstagramLoginPage.class);
