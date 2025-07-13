@@ -5,9 +5,7 @@ import org.testng.annotations.Test;
 import pages.InstagramLoginPage;
 import org.testng.Assert;
 
-public class InstagramLoginTest {
-
-    public static class IGLoginTest extends TestBase {
+public class InstagramLoginTest extends TestBase {
 
         @Test
         public void init() throws Exception {
@@ -25,5 +23,4 @@ public class InstagramLoginTest {
             loginpage.setPassword("23456@qwe");
             loginpage.Login();
         }
-    }
 }
